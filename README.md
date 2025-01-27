@@ -6,8 +6,19 @@ Technologies used:
 
 - go: 1.23.5 darwin/arm64
 
-## Set up
+## Run commands
 
+Run the application:
+
+```bash
+cd hello; go run .
+```
 
 ## Useful commands
 
+Update hello module to use local greetings module:
+
+```bash
+go mod edit -replace example.com/greetings=../greetings
+go mod tidy
+```
