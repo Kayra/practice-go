@@ -22,3 +22,15 @@ Update hello module to use local greetings module:
 go mod edit -replace example.com/greetings=../greetings
 go mod tidy
 ```
+
+Compile code into a binary executable:
+
+```bash
+cd hello; go build
+```
+
+Run the executable (unix):
+
+```bash
+./hello/hello
+```
