@@ -34,3 +34,27 @@ Run the executable (unix):
 ```bash
 ./hello/hello
 ```
+
+Discover go install path:
+
+```bash
+cd hello; go list -f '{{.Target}}'
+```
+
+Save install path to ENV (unix):
+
+```bash
+export PATH=$PATH:/path/to/your/install/directory
+```
+
+Compile and install package:
+
+```bash
+go install
+```
+
+Run package globally:
+
+```bash
+hello
+```
