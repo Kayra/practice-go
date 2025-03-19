@@ -16,6 +16,14 @@ cd hello; go run .
 
 ## Useful commands
 
+Create a new go module:
+
+```bash
+cd concepts
+go mod init concepts
+go mod tidy
+```
+
 Update hello module to use local greetings module:
 
 ```bash
