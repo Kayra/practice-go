@@ -15,4 +15,12 @@ func main() {
 	fmt.Println("Receivers")
 	receivers()
 	fmt.Println()
+
+	fmt.Println("Interfaces")
+	interfaces()
+	fmt.Println()
+
+	fmt.Println("Type inference")
+	type_inference()
+	fmt.Println()
 }
