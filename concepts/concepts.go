@@ -23,4 +23,8 @@ func main() {
 	fmt.Println("Type inference")
 	type_inference()
 	fmt.Println()
+
+	fmt.Println("Empty interface")
+	emptyInterface()
+	fmt.Println()
 }

@@ -1,11 +1,11 @@
-package main
-
 // Programming to an interface rather than specific implementations is done using generic interfaces instead of concrete types.
 
 // Some benefits of programming to an interface:
 // Adaptability: Keeps the code less dependent on specific implementations.
 // Code Reuse: Reduces complexity and duplication.
 // Expansion and Flexibility: Enables easier updates and growth without major overhauls.
+
+package main
 
 import "fmt"
 
