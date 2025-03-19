@@ -15,7 +15,7 @@ func brainwash(saying *string) {
 	*saying = "Beep Boop."
 }
 
-func main() {
+func addresses_and_pointers() {
 	greeting := "Hello there!"
 
 	brainwash(&greeting)

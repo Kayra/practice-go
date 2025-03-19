@@ -1,6 +1,6 @@
 # practice-go
 
-This is the code written while roughly following the [Go docs module creation tutorial](https://go.dev/doc/tutorial/create-module).
+This is the code written while roughly following the [Go docs module creation tutorial](https://go.dev/doc/tutorial/create-module) and [codecademy exercises](https://www.codecademy.com/resources/docs/go).
 
 Technologies used:
 
