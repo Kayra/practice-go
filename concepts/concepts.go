@@ -27,4 +27,8 @@ func main() {
 	fmt.Println("Empty interface")
 	emptyInterface()
 	fmt.Println()
+
+	fmt.Println("Loops")
+	loops()
+	fmt.Println()
 }
