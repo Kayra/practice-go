@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 
 	fmt.Println("Addresses and pointers")
-	addresses_and_pointers()
+	addressesAndPointers()
 	fmt.Println()
 
 	fmt.Println("Conditionals")
@@ -21,7 +21,7 @@ func main() {
 	fmt.Println()
 
 	fmt.Println("Type inference")
-	type_inference()
+	typeInference()
 	fmt.Println()
 
 	fmt.Println("Empty interface")
@@ -30,5 +30,9 @@ func main() {
 
 	fmt.Println("Loops")
 	loops()
+	fmt.Println()
+
+	fmt.Println("Loops")
+	arraysAndSlices()
 	fmt.Println()
 }
